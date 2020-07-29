@@ -1,0 +1,28 @@
+{
+  "name": "kapten-header",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path --fix .gitignore",
+    "lint": "npm run lint:style"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "jquery": "^3.5.1",
+    "nuxt": "^2.13.0",
+    "storyblok-nuxt": "^1.2.0",
+    "vue-slick": "^1.1.15"
+  },
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "css-loader": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
